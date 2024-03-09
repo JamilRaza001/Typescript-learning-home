@@ -1,5 +1,5 @@
 import inquirer from "inquirer";
-
+import chalk from "chalk";
 
 let answer = await inquirer.prompt ([{
     name : "age",
@@ -8,4 +8,4 @@ let answer = await inquirer.prompt ([{
 
 }])
 
-console.log("Inshallah, in " + (60-answer.age) + " years you will be 60 years of age");
+console.log(chalk.green("Inshallah, in " + (60-answer.age) + " years you will be 60 years of age"));

@@ -1,5 +1,5 @@
 {
-  "name": "project06(modules-part2-from-mam-hina)",
+  "name": "project07(operationals-operators-and-using-if-else-from-mam-hina)",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,10 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/inquirer": "^9.0.7",
-    "@types/node": "^20.11.24"
-  },
-  "dependencies": {
-    "inquirer": "^9.2.15"
+    "@types/node": "^20.11.25"
   }
 }
